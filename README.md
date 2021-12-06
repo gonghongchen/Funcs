@@ -1,2 +1,2 @@
 # Funcs
-Some functions……
+记录一些小功能的代码实现
