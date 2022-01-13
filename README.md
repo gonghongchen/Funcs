@@ -8,3 +8,5 @@ thousandthToNum - 千分位格式的金额转换为没有千分位的数值（�
 removeRepeat & removeMultiRepeat - 一维 & 多维 数组去重
 
 isEmpty - 判断输入的值是否为空
+
+getPreviousMonthList - 获取本月之前的 n 个月的月份列表
