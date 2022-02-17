@@ -11,7 +11,8 @@ const getPreviousMonthList = (n = 6) => {
 			res = `${curYear}-12`
 		} else {
 			curMonth = prevMonth - 1
-			res = `${curYear}-${curMonth > 9 ? curMonth : '0' + curMonth}` // 补全0
+			// res = `${curYear}-${curMonth > 9 ? curMonth : '0' + curMonth}` // 补全0
+			res = `${curYear}-${curMonth.toString().padStart(2, 0)}` // 补全0（2022年2月17日 更新）
 		}
 		list.push(res)
 		return curMonth
